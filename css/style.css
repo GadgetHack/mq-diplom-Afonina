@@ -870,10 +870,14 @@ li.theme-item {
   left: 0;
   top: 0;
 
+  margin: auto;
+
   background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
+
+  z-index: 10;
 }
 
 .popup-content {
@@ -883,6 +887,7 @@ li.theme-item {
   box-sizing: border-box;
   padding: 30px;
   position: relative;
+
 }
 
 .popup-close {
@@ -893,6 +898,8 @@ li.theme-item {
   right: -2px;
 
   cursor: pointer;
+
+  z-index: 10;
 }
 
 .popup-header {
@@ -916,6 +923,7 @@ li.theme-item {
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .popup-oft {
@@ -924,4 +932,53 @@ li.theme-item {
   color: #000000;
   font-weight: 400;
   padding-top: 20px;
+}
+
+.select {
+  display: block;
+  box-sizing: border-box;
+  min-width: 330px;
+  min-height: 48px;
+  background-color: #f4f7f6;
+  padding: 20px;
+  margin-top: 10px;
+  border-color: #f4f7f6;
+
+  opacity: 0.541;
+  font-size: 13px;
+  color: #000000;
+  font-weight: 400;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+}
+
+.select-container {
+  position: relative;
+}
+
+.select-arrow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #b59f5b;
+}
+
+.select:focus-visible {
+  outline: none;
+  border-color: #b59f5b;
+}
+
+.form-radio {
+  margin-top: 30px;
+}
+
+.radio-btn {
+  display:none;
 }
