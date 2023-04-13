@@ -478,7 +478,7 @@ time {
 }
 
 .form-hint {
-  display: block;
+  display: inline-block;
   opacity: 0.541;
   font-size: 13px;
   line-height: 10px;
@@ -963,6 +963,7 @@ li.theme-item {
   top: 0;
   bottom: 0;
   margin: auto;
+  opacity: 1;
 }
 
 .select:focus {
@@ -975,10 +976,48 @@ li.theme-item {
   border-color: #b59f5b;
 }
 
+.form-sub {
+  font-size: 13px;
+  color: #000000;
+  font-weight: 400;
+}
+
 .form-radio {
   margin-top: 30px;
 }
 
 .radio-btn {
-  display:none;
+  display: none;
+}
+
+.form-btn {
+  font-size: 13px;
+  line-height: 10px;
+  color: #000000;
+  font-weight: 400;
+  margin-right: 25px;
+}
+
+.subscribe-radio {
+  margin-top: 10px;
+}
+
+.form-cont {
+  display: inline-block;
+  font-size: 13px;
+  color: #000000;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.field-advice {
+  min-width: 330px;
+  min-height: 131px;
+  background-color: #f4f7f6;
+  border: 1px solid #f4f7f6;
+}
+
+.field-advice:focus{
+  outline: none;
+  border: 1px solid #b59f5b;
 }
