@@ -155,8 +155,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .trend-title {
@@ -176,8 +176,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -185,7 +185,7 @@ a {
   width: calc(25% - 3px);
   min-height: 322px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 
   position: relative;
 
@@ -377,7 +377,7 @@ time {
 
 .main-text {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 13px;
   line-height: 20px;
   color: #0f0d0e;
@@ -386,7 +386,7 @@ time {
 
   -o-text-overflow: ellipsis;
 
-     text-overflow: ellipsis;
+  text-overflow: ellipsis;
   letter-spacing: 0.3px;
 
 }
@@ -563,7 +563,7 @@ time {
   color: #ffffff;
 }
 
-.subscribe_button:hover {
+.subscribe-button:hover {
   background-color: #323232;
 }
 
@@ -647,7 +647,7 @@ li.theme-item {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   width: 1064px;
   ;
   margin: 0 auto;
@@ -663,7 +663,7 @@ li.theme-item {
   min-width: 300px;
   min-height: 200px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .product-card:nth-child(n + 2) {
@@ -686,7 +686,7 @@ li.theme-item {
   min-width: 340px;
   max-height: 260px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin-top: 170px;
   margin-left: -20px;
   padding-top: 45px;
@@ -747,8 +747,8 @@ li.theme-item {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-top: 20px;
 }
 
@@ -758,8 +758,8 @@ li.theme-item {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .product-button {
@@ -825,8 +825,8 @@ li.theme-item {
   align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 
   width: 1200px;
 }
@@ -863,8 +863,8 @@ li.theme-item {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .visually-hidden {
@@ -917,11 +917,11 @@ li.theme-item {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 
   z-index: 10;
 }
@@ -929,9 +929,9 @@ li.theme-item {
 .popup-content {
   background: #ffffff;
   width: 387px;
-  height: 587px;
+  min-height: 587px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 30px;
   position: relative;
 
@@ -984,7 +984,7 @@ li.theme-item {
 .select {
   display: block;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   min-width: 330px;
   min-height: 48px;
   background-color: #f4f7f6;
@@ -1064,7 +1064,7 @@ li.theme-item {
   background-color: #f4f7f6;
   border: 1px solid #f4f7f6;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   resize: none;
   margin-top: 10px;
 }
@@ -1080,4 +1080,34 @@ li.theme-item {
   color: #000000;
   font-weight: 400;
   padding: 20px;
+}
+
+.send-button {
+  border: none;
+  width: 100%;
+  height: 44px;
+  background-color: #b59f5b;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 1px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #ffffff;
+  
+}
+
+.send-button:hover {
+  background-color: #323232;
+}
+
+._hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
 }
